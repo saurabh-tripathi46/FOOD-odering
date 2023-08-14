@@ -1,0 +1,3 @@
+createElement FUNCTION - gives JS object not html tag. render() method converts it as html tag
+createElement('tag name', attributes as JS object key value pair, children as array or simple innerHTML)
+root.render() method replace any existing html element inside root element.
