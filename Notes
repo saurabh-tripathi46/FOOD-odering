@@ -1,3 +1,16 @@
+# Episode - 1
 createElement FUNCTION - gives JS object not html tag. render() method converts it as html tag
 createElement('tag name', attributes as JS object key value pair, children as array or simple innerHTML)
 root.render() method replace any existing html element inside root element.
+
+
+
+# Episode - 2
+Dev dependencies - Required in the  development phase of application. During  building, testing, and linting the code.
+Normal DevDependencies - Required to run application properly.
+tilde ( ~ ) - Upgrade to the latest major version available.
+caret ( ^ ) - Upgrade to the latest MINOR/PATCH version available.
+"MAJOR.MINOR.PATCH" => 1.2.3
+parcel - works as bundler(bundle the code)-  doing HMR(Hot Module replacement) - Minifying  the code - Optimizing the image - 
+BrowserList - Makes app compatible for different browser.
+npx - executing npx package with source file.
