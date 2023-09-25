@@ -71,3 +71,27 @@ Redux -
 2. providing this store to application
 3. creating slice - slice consists => name of slice, initialState, reducers function.
 4. added this slice to store.
+
+#useMemo - cache the result of calculation between re-renders.
+
+React.strict = ?
+
+React.memo =  higher-order component (HOC), which is a fancy name for a component that takes a component as a prop and returns a component that prevents a component from re-rendering if the props (or values within it) have not changed.
+
+
+# LRU => Least recent used cache
+
+# Class based component=>
+
+Loading the class based component on web page means creating new instance of this class. Constructor of class/component will be called with props and setting the state also there in constructor.
+
+Render phase<>
+1st constructor
+2nd render
+3rd componentDidMount
+
+Update phase<>
+1.render
+2.componentDidUpdate
+
+
